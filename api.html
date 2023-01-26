@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        a{
+            margin-top: 15px;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            width: 100px;
+            padding: 10px 0px;
+            color: aliceblue;
+            background-color: rgb(152, 21, 34);
+        }
+        img{
+            width: 40%;
+            height: 40%;
+            border: solid;
+        }
+        section{
+            display: grid;
+            grid-template-columns: repeat(4,auto);
+            margin: auto;
+            text-align: center;
+            gap: 15px; 
+            justify-content: center;
+        }
+        .rows{
+            padding: 20px;
+            background-color: #ded0c2;
+            height: 340px;
+        }
+        section{
+            display: none;
+        }
+.btndiv{
+    justify-content: center;
+    width: 100%;
+    background-color: darkred;
+    margin: auto;
+    height: 50px;
+}
+button{
+    display: inline-block;
+    margin-left: 680px;
+    margin-top: 12px;
+    width: 10%;
+    height: 30px;
+}
+img{
+    margin-bottom: 20px;
+}
+h4{
+    margin-top: 30px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="btndiv">
+            <button id="btn" onclick="get()">Books</button>
+    </div>
+        <section id="mo" >
+        <div class="rows">
+            <img src=""alt="">
+            <h4></h4>
+            <p></p>
+            <a href="#"></a>
+        </div>
+    </section>    
+    <script src="api.js"></script>
+    
+</body>
+</html>
